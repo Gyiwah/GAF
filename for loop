@@ -1,0 +1,8 @@
+<?php
+print "<b><u>For Loop for Even Numbers.</u></b></br><i>The first 100 even numbers</i></br>";
+print " <<>>============<<>></br>";
+for($even=2;$even<=200;$even++){
+    if($even%2==0){
+        print $even."</br>";
+    }
+}
